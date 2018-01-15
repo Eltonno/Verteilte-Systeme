@@ -6,9 +6,7 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestClientResponseException;
 import org.springframework.web.client.RestTemplate;
 import vsp.FinishedFail;
@@ -124,6 +122,52 @@ public class ApplicationFacadeController {
         );
 
         return end.getBody().toString();
+    }
+
+    /**
+     * //TODO
+     * */
+    @RestController()
+    @RequestMapping(path="/taverne")
+    public class TestController {
+
+        @GetMapping(path = "/hero")
+        public String helloWorld(){
+            return "{" +
+                    "user:" +
+                    "" +
+                    "}";
+        }
+
+        @GetMapping(path = "/hirings")
+        public String helloWorld(){
+            return "You fool!";
+        }
+
+        @GetMapping(path = "/assignments")
+        public String helloWorld(){
+            return "You fool!";
+        }
+
+        @PutMapping(path = "/message")
+        public String helloWorld(){
+            return "You fool!";
+        }
+
+        @GetMapping(path = "/group")
+        public String helloWorld(){
+            return "You fool!";
+        }
+
+        @GetMapping(path = "/election")
+        public String helloWorld(){
+            return "You fool!";
+        }
+
+        @GetMapping(path = "/job")
+        public String helloWorld(){
+            return "You fool!";
+        }
     }
 }
 
