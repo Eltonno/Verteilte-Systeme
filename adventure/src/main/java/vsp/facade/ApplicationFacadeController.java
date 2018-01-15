@@ -132,41 +132,71 @@ public class ApplicationFacadeController {
     public class TestController {
 
         @GetMapping(path = "/hero")
-        public String helloWorld(){
+        public String getHero(){
             return "{" +
                     "user:" +
-                    "" +
+                    "idle:" +
+                    "group:" +
+                    "hirings:" +
+                    "assignments:" +
+                    "messages:" +
                     "}";
         }
 
         @GetMapping(path = "/hirings")
-        public String helloWorld(){
-            return "You fool!";
+        public String getHirings(){
+            return "{" +
+                    "group:" +
+                    "quest:" +
+                    "message:" +
+                    "}";
         }
 
         @GetMapping(path = "/assignments")
-        public String helloWorld(){
-            return "You fool!";
+        public String getAssignments(){
+            return "{" +
+                    "id:" +
+                    "task:" +
+                    "resource:" +
+                    "method:" +
+                    "data:" +
+                    "callback:" +
+                    "message:" +
+                    "}";
         }
 
         @PutMapping(path = "/message")
-        public String helloWorld(){
+        public String putMessage(){
             return "You fool!";
         }
 
         @GetMapping(path = "/group")
-        public String helloWorld(){
+        public String getGroup(){
             return "You fool!";
         }
 
         @GetMapping(path = "/election")
-        public String helloWorld(){
-            return "You fool!";
+        public String getElection(){
+            return "{" +
+                    "algorithm:" +
+                    "payload:" +
+                    "user:" +
+                    "job:" +
+                    "message:" +
+                    "}";
         }
 
         @GetMapping(path = "/job")
-        public String helloWorld(){
-            return "You fool!";
+        public String getJob(){
+            return "{" +
+                    "id:" +
+                    "task:" +
+                    "resource:" +
+                    "method:" +
+                    "data:" +
+                    "callback:" +
+                    "message:" +
+                    "}";
         }
     }
 }
