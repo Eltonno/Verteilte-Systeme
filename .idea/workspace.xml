@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ddddf7-f425-4ff5-9052-6e6be4c07945" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/adventure/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/adventure/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/adventure/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/adventure/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/adventure/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/adventure/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ToolSpace/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ToolSpace/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Verteilte-Systeme-adventure_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Verteilte-Systeme-adventure_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Verteilte-Systeme-adventure_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Verteilte-Systeme-adventure_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/test.iml" afterPath="$PROJECT_DIR$/.idea/modules/test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/test_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/test_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/test_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/test_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/adventure/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/gradlew" afterPath="$PROJECT_DIR$/adventure/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/gradlew.bat" afterPath="$PROJECT_DIR$/adventure/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adventure/src/main/java/vsp/facade/ApplicationFacadeController.java" afterPath="$PROJECT_DIR$/adventure/src/main/java/vsp/facade/ApplicationFacadeController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/test/.gradle/" />
@@ -1488,11 +1468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516034577626</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="json Format">
+      <created>1516041731784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516041731784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7045000" />
+    <option name="totallyTimeSpent" value="7167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="6" />
@@ -1588,7 +1575,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TODOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODOS" />
+    <MESSAGE value="json Format" />
+    <option name="LAST_COMMIT_MESSAGE" value="json Format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
