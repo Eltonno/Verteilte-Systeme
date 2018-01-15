@@ -1,6 +1,7 @@
 package vsp;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import vsp.user.User;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
